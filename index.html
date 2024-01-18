@@ -1,0 +1,631 @@
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <base href="">
+  <meta charset="utf-8">
+  <title>Mason Zadan</title>
+  <meta http-equiv="Accept-CH" content="Sec-CH-UA-Platform-Version, Sec-CH-UA-Model">
+  <link rel="icon" type="image/x-icon" href="/Users/lukepowers/Desktop/mason_website/images/favicon.png">
+  <link rel="stylesheet" href="/Users/lukepowers/Desktop/mason_website/styles.css">
+  <meta property="og:site_name" content="Mason Zadan">
+  <meta property="og:title" content="Mason Zadan">
+  <meta property="og:type" content="website">
+  <meta property="og:description" content="Portfolio for Mason Zadan, mechanical engineering PHD candidate at Carnegie Mellon University.">
+  <meta itemprop="name" content="Mason Zadan">
+  <meta itemprop="url" content="https://masonzadan.com">
+  <meta itemprop="description" content="Portfolio for Mason Zadan, mechanical engineering PHD candidate at Carnegie Mellon University.">
+  <style type="text/css">
+    @font-face{
+  font-family:proxima-nova;
+  src:url(https://use.typekit.net/af/154cda/00000000000000007735e601/30/l?subset_id=2&fvd=n1&v=3) format("woff2"),url(https://use.typekit.net/af/154cda/00000000000000007735e601/30/d?subset_id=2&fvd=n1&v=3) format("woff"),url(https://use.typekit.net/af/154cda/00000000000000007735e601/30/a?subset_id=2&fvd=n1&v=3) format("opentype");
+  font-weight:100;
+  font-style:normal;
+  font-stretch:normal;
+  font-display:auto;
+}
+@font-face{
+  font-family:proxima-nova;
+  src:url(https://use.typekit.net/af/1be3c2/00000000000000007735e606/30/l?subset_id=2&fvd=n3&v=3) format("woff2"),url(https://use.typekit.net/af/1be3c2/00000000000000007735e606/30/d?subset_id=2&fvd=n3&v=3) format("woff"),url(https://use.typekit.net/af/1be3c2/00000000000000007735e606/30/a?subset_id=2&fvd=n3&v=3) format("opentype");
+  font-weight:300;
+  font-style:normal;
+  font-stretch:normal;
+  font-display:auto;
+}
+@font-face{
+  font-family:proxima-nova;
+  src:url(https://use.typekit.net/af/efe4a5/00000000000000007735e609/30/l?subset_id=2&fvd=n4&v=3) format("woff2"),url(https://use.typekit.net/af/efe4a5/00000000000000007735e609/30/d?subset_id=2&fvd=n4&v=3) format("woff"),url(https://use.typekit.net/af/efe4a5/00000000000000007735e609/30/a?subset_id=2&fvd=n4&v=3) format("opentype");
+  font-weight:400;
+  font-style:normal;
+  font-stretch:normal;
+  font-display:auto;
+}
+@font-face{
+  font-family:proxima-nova;
+  src:url(https://use.typekit.net/af/23e139/00000000000000007735e605/30/l?subset_id=2&fvd=n5&v=3) format("woff2"),url(https://use.typekit.net/af/23e139/00000000000000007735e605/30/d?subset_id=2&fvd=n5&v=3) format("woff"),url(https://use.typekit.net/af/23e139/00000000000000007735e605/30/a?subset_id=2&fvd=n5&v=3) format("opentype");
+  font-weight:500;
+  font-style:normal;
+  font-stretch:normal;
+  font-display:auto;
+}
+@font-face{
+  font-family:proxima-nova;
+  src:url(https://use.typekit.net/af/78aca8/00000000000000007735e60d/30/l?subset_id=2&fvd=n6&v=3) format("woff2"),url(https://use.typekit.net/af/78aca8/00000000000000007735e60d/30/d?subset_id=2&fvd=n6&v=3) format("woff"),url(https://use.typekit.net/af/78aca8/00000000000000007735e60d/30/a?subset_id=2&fvd=n6&v=3) format("opentype");
+  font-weight:600;
+  font-style:normal;
+  font-stretch:normal;
+  font-display:auto;
+}
+@font-face{
+  font-family:proxima-nova;
+  src:url(https://use.typekit.net/af/2555e1/00000000000000007735e603/30/l?subset_id=2&fvd=n7&v=3) format("woff2"),url(https://use.typekit.net/af/2555e1/00000000000000007735e603/30/d?subset_id=2&fvd=n7&v=3) format("woff"),url(https://use.typekit.net/af/2555e1/00000000000000007735e603/30/a?subset_id=2&fvd=n7&v=3) format("opentype");
+  font-weight:700;
+  font-style:normal;
+  font-stretch:normal;
+  font-display:auto;
+}
+@font-face{
+  font-family:proxima-nova;
+  src:url(https://use.typekit.net/af/40d372/00000000000000007735e607/30/l?subset_id=2&fvd=i3&v=3) format("woff2"),url(https://use.typekit.net/af/40d372/00000000000000007735e607/30/d?subset_id=2&fvd=i3&v=3) format("woff"),url(https://use.typekit.net/af/40d372/00000000000000007735e607/30/a?subset_id=2&fvd=i3&v=3) format("opentype");
+  font-weight:300;
+  font-style:italic;
+  font-stretch:normal;
+  font-display:auto;
+}
+@font-face{
+  font-family:proxima-nova;
+  src:url(https://use.typekit.net/af/8738d8/00000000000000007735e611/30/l?subset_id=2&fvd=n8&v=3) format("woff2"),url(https://use.typekit.net/af/8738d8/00000000000000007735e611/30/d?subset_id=2&fvd=n8&v=3) format("woff"),url(https://use.typekit.net/af/8738d8/00000000000000007735e611/30/a?subset_id=2&fvd=n8&v=3) format("opentype");
+  font-weight:800;
+  font-style:normal;
+  font-stretch:normal;
+  font-display:auto;
+}
+@font-face{
+  font-family:proxima-nova;
+  src:url(https://use.typekit.net/af/e3ed45/00000000000000007735e602/30/l?subset_id=2&fvd=n9&v=3) format("woff2"),url(https://use.typekit.net/af/e3ed45/00000000000000007735e602/30/d?subset_id=2&fvd=n9&v=3) format("woff"),url(https://use.typekit.net/af/e3ed45/00000000000000007735e602/30/a?subset_id=2&fvd=n9&v=3) format("opentype");
+  font-weight:900;
+  font-style:normal;
+  font-stretch:normal;
+  font-display:auto;
+}
+@font-face{
+  font-family:proxima-nova;
+  src:url(https://use.typekit.net/af/4de20a/00000000000000007735e604/30/l?subset_id=2&fvd=i7&v=3) format("woff2"),url(https://use.typekit.net/af/4de20a/00000000000000007735e604/30/d?subset_id=2&fvd=i7&v=3) format("woff"),url(https://use.typekit.net/af/4de20a/00000000000000007735e604/30/a?subset_id=2&fvd=i7&v=3) format("opentype");
+  font-weight:700;
+  font-style:italic;
+  font-stretch:normal;
+  font-display:auto;
+}
+@font-face{
+  font-family:futura-pt;
+  src:url(https://use.typekit.net/af/ae4f6c/000000000000000000010096/27/l?subset_id=2&fvd=n3&v=3) format("woff2"),url(https://use.typekit.net/af/ae4f6c/000000000000000000010096/27/d?subset_id=2&fvd=n3&v=3) format("woff"),url(https://use.typekit.net/af/ae4f6c/000000000000000000010096/27/a?subset_id=2&fvd=n3&v=3) format("opentype");
+  font-weight:300;
+  font-style:normal;
+  font-stretch:normal;
+  font-display:auto;
+}
+@font-face{
+  font-family:futura-pt;
+  src:url(https://use.typekit.net/af/9b05f3/000000000000000000013365/27/l?subset_id=2&fvd=n4&v=3) format("woff2"),url(https://use.typekit.net/af/9b05f3/000000000000000000013365/27/d?subset_id=2&fvd=n4&v=3) format("woff"),url(https://use.typekit.net/af/9b05f3/000000000000000000013365/27/a?subset_id=2&fvd=n4&v=3) format("opentype");
+  font-weight:400;
+  font-style:normal;
+  font-stretch:normal;
+  font-display:auto;
+}
+@font-face{
+  font-family:futura-pt;
+  src:url(https://use.typekit.net/af/2cd6bf/00000000000000000001008f/27/l?subset_id=2&fvd=n5&v=3) format("woff2"),url(https://use.typekit.net/af/2cd6bf/00000000000000000001008f/27/d?subset_id=2&fvd=n5&v=3) format("woff"),url(https://use.typekit.net/af/2cd6bf/00000000000000000001008f/27/a?subset_id=2&fvd=n5&v=3) format("opentype");
+  font-weight:500;
+  font-style:normal;
+  font-stretch:normal;
+  font-display:auto;
+}
+@font-face{
+  font-family:futura-pt;
+  src:url(https://use.typekit.net/af/309dfe/000000000000000000010091/27/l?subset_id=2&fvd=n7&v=3) format("woff2"),url(https://use.typekit.net/af/309dfe/000000000000000000010091/27/d?subset_id=2&fvd=n7&v=3) format("woff"),url(https://use.typekit.net/af/309dfe/000000000000000000010091/27/a?subset_id=2&fvd=n7&v=3) format("opentype");
+  font-weight:700;
+  font-style:normal;
+  font-stretch:normal;
+  font-display:auto;
+}
+@font-face{
+  font-family:futura-pt;
+  src:url(https://use.typekit.net/af/849347/000000000000000000010093/27/l?subset_id=2&fvd=i3&v=3) format("woff2"),url(https://use.typekit.net/af/849347/000000000000000000010093/27/d?subset_id=2&fvd=i3&v=3) format("woff"),url(https://use.typekit.net/af/849347/000000000000000000010093/27/a?subset_id=2&fvd=i3&v=3) format("opentype");
+  font-weight:300;
+  font-style:italic;
+  font-stretch:normal;
+  font-display:auto;
+}
+@font-face{
+  font-family:futura-pt;
+  src:url(https://use.typekit.net/af/0c71d1/000000000000000000010097/27/l?subset_id=2&fvd=n8&v=3) format("woff2"),url(https://use.typekit.net/af/0c71d1/000000000000000000010097/27/d?subset_id=2&fvd=n8&v=3) format("woff"),url(https://use.typekit.net/af/0c71d1/000000000000000000010097/27/a?subset_id=2&fvd=n8&v=3) format("opentype");
+  font-weight:800;
+  font-style:normal;
+  font-stretch:normal;
+  font-display:auto;
+}
+@font-face{
+  font-family:futura-pt;
+  src:url(https://use.typekit.net/af/cf3e4e/000000000000000000010095/27/l?subset_id=2&fvd=i4&v=3) format("woff2"),url(https://use.typekit.net/af/cf3e4e/000000000000000000010095/27/d?subset_id=2&fvd=i4&v=3) format("woff"),url(https://use.typekit.net/af/cf3e4e/000000000000000000010095/27/a?subset_id=2&fvd=i4&v=3) format("opentype");
+  font-weight:400;
+  font-style:italic;
+  font-stretch:normal;
+  font-display:auto;
+}
+@font-face{
+  font-family:futura-pt;
+  src:url(https://use.typekit.net/af/eb729a/000000000000000000010092/27/l?subset_id=2&fvd=i7&v=3) format("woff2"),url(https://use.typekit.net/af/eb729a/000000000000000000010092/27/d?subset_id=2&fvd=i7&v=3) format("woff"),url(https://use.typekit.net/af/eb729a/000000000000000000010092/27/a?subset_id=2&fvd=i7&v=3) format("opentype");
+  font-weight:700;
+  font-style:italic;
+  font-stretch:normal;
+  font-display:auto;
+}
+
+  </style>
+</head>
+<body class="blog-sidebar-display-auto index-thumb-title-position-below index-item-layout-auto thumbnail-layout-basic-grid thumbnails-on-open-page-show-all   layout-style-left page-borders-none underline-body-links gallery-page-controls-tiny-thumbnails  social-icon-style-normal   show-category-navigation   event-show-past-events event-thumbnails event-thumbnail-size-32-standard event-date-label  event-list-show-cats event-list-date event-list-time event-list-address   event-icalgcal-links  event-excerpts  event-item-back-link    product-list-titles-under product-list-alignment-center product-item-size-11-square product-image-auto-crop product-gallery-size-11-square  show-product-price show-product-item-nav product-social-sharing tweak-v1-related-products-image-aspect-ratio-11-square tweak-v1-related-products-details-alignment-center newsletter-style-dark hide-opentable-icons opentable-style-dark small-button-style-solid small-button-shape-square medium-button-style-solid medium-button-shape-square large-button-style-solid large-button-shape-square image-block-poster-text-alignment-center image-block-card-dynamic-font-sizing image-block-card-content-position-center image-block-card-text-alignment-center image-block-overlap-dynamic-font-sizing image-block-overlap-content-position-center image-block-overlap-text-alignment-left image-block-collage-dynamic-font-sizing image-block-collage-content-position-top image-block-collage-text-alignment-left image-block-stack-dynamic-font-sizing image-block-stack-text-alignment-left button-style-solid button-corner-style-square tweak-product-quick-view-button-style-floating tweak-product-quick-view-button-position-bottom tweak-product-quick-view-lightbox-excerpt-display-truncate tweak-product-quick-view-lightbox-show-arrows tweak-product-quick-view-lightbox-show-close-button tweak-product-quick-view-lightbox-controls-weight-light native-currency-code-usd collection-6071b3a28ba1797240bddf4b collection-type-page collection-layout-default homepage mobile-style-available site-title has-primary-nav" id="collection-6071b3a28ba1797240bddf4b">
+  <div id="canvas" style="background-size: cover; background-position: center center; background-image: url(/Users/lukepowers/Desktop/mason_website/images/liquid_metal.jpg);" jsname="LQX2Vd">
+    <section>
+      <div id="header-block" >
+        <div id="mobileMenuLink"><a>Menu</a></div>
+        <header id="header">
+          <div id="logo" data-content-field="site-title">
+            <h1 class="logo" data-shrink-original-size="42" style="letter-spacing: 0.0238095em;">Mason Zadan</h1>
+            <div class="logo-subtitle" data-shrink-original-size="12" style="letter-spacing: 0.0833333em;">PhD Candidate • Soft Matter Materials Engineer</div>
+          </div>
+          <div id="topNav" data-content-field="navigation">
+            <nav class="main-nav">
+              <ul>
+                <li class="index-collection">
+                  <a href="/projects">Publications</a>
+                </li>
+                <li class="">
+                  <a href="/Users/lukepowers/Desktop/mason_website/pdfs/Mason Zadan CV 12_29_23.pdf" target="_blank">Resume</a>
+                </li>
+                <li class="page-collection">
+                  <a href="/about">About Me</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </header>
+        <div class="page-divider"></div>
+        <div class="extra-wrapper page-header">
+      </div>
+    </section>
+      <div class="sqs-layout sqs-grid-12 columns-12 empty" data-layout-label="Header Content: Publications" data-type="block-field" id="page-header-6071b3a28ba1797240bddf4b">
+        <div class="row sqs-row">
+          <div class="col sqs-col-12 span-12"></div>
+        </div>
+      </div>
+    </div>
+    <section id="page" role="main" data-content-field="main-content">
+      <div class="sqs-layout sqs-grid-12 columns-12" data-type="page" data-updated-on="1650325396777" id="page-6071b3a28ba1797240bddf4b">
+        <div class="row sqs-row" id="yui_3_17_2_1_1703786804157_74">
+          <div class="col sqs-col-12 span-12" id="yui_3_17_2_1_1703786804157_73">
+            <div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-d781178c026ffd4f7b25">
+              <div class="sqs-block-content">
+                <div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21" id="block-38e19bfcb56ecb81acf2">
+                  <div class="sqs-block-content">&nbsp;</div>
+                </div>
+                <div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1647287179630_89769">
+                  <div class="sqs-block-content"></div>
+                  <div class="sqs-html-content">
+                    <h1 class="publications-header" style="text-align:center;white-space:pre-wrap;">Selected Publications</h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21" id="block-yui_3_17_2_1_1647287179630_301069">
+            <div class="sqs-block-content">&nbsp;</div>
+          </div>
+          <div class="row sqs-row" id="yui_3_17_2_1_1703786804157_72">
+            <h2>Stretchable Thermoelectric Generators</h2>
+            <div class="col sqs-col-4 span-4" id="yui_3_17_2_1_1703786804157_71">
+              
+              <div class="sqs-block image-block sqs-block-image sqs-text-ready" data-block-type="5" id="block-yui_3_17_2_1_1650324693014_15693">
+                
+                <div class="sqs-block-content" id="yui_3_17_2_1_1703786804157_70">
+                  
+                  <div class="image-block-outer-wrapper
+                    layout-caption-below
+                    design-layout-inline
+                    combination-animation-none
+                    individual-animation-none
+                    individual-text-animation-none
+                    sqs-narrow-width" data-test="image-block-inline-outer-wrapper" id="yui_3_17_2_1_1703786804157_69">
+                    
+                    <figure class="
+                      sqs-block-image-figure
+                      intrinsic
+                      " style="max-width:2483px;" id="yui_3_17_2_1_1703786804157_68">
+                      <div class="image-block-wrapper" data-animation-role="image" id="yui_3_17_2_1_1703786804157_67">
+                        <div class="sqs-image-shape-container-element        
+                          has-aspect-ratio
+                          " style="
+                          position: relative;
+                          padding-bottom:71.64720153808594%;
+                          overflow: hidden;-webkit-mask-image: -webkit-radial-gradient(white, black);
+                          " id="yui_3_17_2_1_1703786804157_66">                  
+                          <img data-stretch="false" src="/Users/lukepowers/Desktop/mason_website/images/stretchy_tegs.png" width="2483" height="1779" sizes="(max-width: 640px) 100vw, (max-width: 767px) 33.33333333333333vw, 33.33333333333333vw" style="display: block;  width: 100%; height: auto; object-position: 50% 50%">
+                        </div>
+                      </div>
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col sqs-col-8 span-8">
+              <div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1650324693014_11017">
+                <div class="sqs-block-content">
+                  <div class="sqs-html-content">
+                    <h3 style="white-space:pre-wrap;">Soft and Stretchable Thermoelectric Generators Enabled by Liquid Metal Elastomer Composites</h3>
+                    <p class="" style="white-space:pre-wrap;"><strong>Zadan, M.*</strong>; Malakooti, M.H.*; Majidi, C. <i>ACS Applied Materials & Interfaces, 2020</i></p>
+                    <p class="" style="white-space:pre-wrap;">Stretchable thermoelectric generators (TEGs) capable of harvesting electrical energy from body heat under cold weather conditions have the potential to make wearable electronic and robotic systems more lightweight and portable by reducing their dependency on on-board batteries. However, progress depends on the integration of soft conductive materials for robust electrical wiring and thermal management. The use of thermally conductive soft elastomers is especially important for conforming to the body, absorbing body heat, and maintaining a temperature gradient between the two sides of the TEGs in order to generate power. Here, we introduce a soft-matter TEG architecture composed of electrically and thermally conductive liquid metal embedded elastomer (LMEE) composites with integrated arrays of n-type and p-type Bi2Te3 semiconductors. The incorporation of a LMEE as a multifunctional encapsulating material allows for the seamless integration of 100 thermoelectric semiconductor elements into a simplified material layup that has a dimension of 41.0 × 47.3 × 3.0 mm. These stretchable thermoelectric devices generate voltages of 59.96 mV at Δ10 °C, 130 mV at Δ30 °C, and 278.6 mV and a power of 86.6 μW/cm2 at Δ60 °C. Moreover, they do not electrically or mechanically fail when stretched to strains above 50%, making them well-suited for energy harvesting in soft electronics and wearable computing applications.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="row sqs-row">
+                <div class="col sqs-col-2 span-2">
+                  <div class="sqs-block button-block sqs-block-button" data-block-type="53" id="block-yui_3_17_2_1_1650324693014_172103">
+                    <div class="sqs-block-content" id="yui_3_17_2_1_1703786804157_136">
+                      <div class="sqs-block-button-container sqs-block-button-container--left" data-animation-role="button" data-alignment="left" data-button-size="small" data-button-type="tertiary" id="yui_3_17_2_1_1703786804157_135">
+                        <a href="/Users/lukepowers/Desktop/mason_website/pdfs/zadan-et-al-2020-soft-and-stretchable-thermoelectric-generators-enabled-by-liquid-metal-elastomer-composites.pdf" class="sqs-block-button-element--small sqs-button-element--tertiary sqs-block-button-element" target="_blank" data-initialized="true">
+                        PDF
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21" id="block-yui_3_17_2_1_1638547361692_75054">
+            <div class="sqs-block-content">&nbsp;</div>
+          </div>
+          <div class="row sqs-row" id="yui_3_17_2_1_1703786804157_86">
+            <div class="col sqs-col-4 span-4" id="yui_3_17_2_1_1703786804157_85">
+              <div class="sqs-block image-block sqs-block-image sqs-text-ready" data-aspect-ratio="67.3780487804878" data-block-type="5" id="block-e8f24bd34eb05913e82c">
+                <div class="sqs-block-content" id="yui_3_17_2_1_1703786804157_84">
+                  <div class="image-block-outer-wrapper
+                    layout-caption-hidden
+                    design-layout-inline
+                    combination-animation-none
+                    individual-animation-none
+                    individual-text-animation-none
+                    sqs-narrow-width" data-test="image-block-inline-outer-wrapper" id="yui_3_17_2_1_1703786804157_83">
+                    <figure class="
+                      sqs-block-image-figure
+                      intrinsic
+                      " style="max-width:1244px;" id="yui_3_17_2_1_1703786804157_82">
+                      <div class="image-block-wrapper" data-animation-role="image" id="yui_3_17_2_1_1703786804157_81">
+                        <div class="sqs-image-shape-container-element
+                          has-aspect-ratio
+                          " style="
+                          position: relative;
+                          padding-bottom:67.3780517578125%;
+                          overflow: hidden;-webkit-mask-image: -webkit-radial-gradient(white, black);
+                          " id="yui_3_17_2_1_1703786804157_80">
+                          <img data-stretch="false" alt="wearable_soft_tech.png" data-load="false" src="/Users/lukepowers/Desktop/mason_website/images/liquid_crystal_elastomer.png" width="1244" height="834" sizes="(max-width: 640px) 100vw, (max-width: 767px) 33.33333333333333vw, 33.33333333333333vw" style="display:block;object-fit: cover; width: 100%; height: auto; object-position: 50.40212614110793% 63.69047619047619%">    
+                        </div>
+                      </div>
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col sqs-col-8 span-8">
+              <div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1638547361692_75114">
+                <div class="sqs-block-content">
+                  <div class="sqs-html-content">
+                    <h3 style="white-space:pre-wrap;">Liquid Crystal Elastomer with Integrated Soft Thermoelectrics for Shape Memory Actuation and Energy Harvesting</h3>
+                    <p class="" style="white-space:pre-wrap;"><strong>Zadan, M.</strong>; Patel; D.K.; Sabelhaus, A.P; Liao, J.; Wertz, A.; Yao, L.; Majidi, C. <i>Advanced Materials, 2022.</i></p>
+                    <p class="" style="white-space:pre-wrap;">Liquid crystal elastomers (LCEs) have attracted tremendous interest as actuators for soft robotics due to their mechanical and shape memory properties. However, LCE actuators typically respond to thermal stimulation through active Joule heating and passive cooling, which make them difficult to control. In this work, LCEs are combined with soft, stretchable thermoelectrics to create transducers capable of electrically controlled actuation, active cooling, and thermal-to-electrical energy conversion. The thermoelectric layers are composed of semiconductors embedded within a 3D printed elastomer matrix and wired together with eutectic gallium–indium (EGaIn) liquid metal interconnects. This layer is covered on both sides with LCE, which alternately heats and cools to achieve cyclical bending actuation in response to voltage-controlled Peltier activation. Moreover, the thermoelectric layer can harvest energy from thermal gradients between the two LCE layers through the Seebeck effect, allowing for regenerative energy harvesting. As demonstrations, first, closed-loop control of the transducer is performed to rapidly track a changing actuator position. Second, a soft robotic walker that is capable of walking toward a heat source and harvesting energy is introduced. Lastly, phototropic-inspired autonomous deflection of the limbs toward a heat source is shown, demonstrating an additional method to increase energy recuperation efficiency for soft systems.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="sqs-block button-block sqs-block-button" data-block-type="53" id="block-bce7e90e2245ab3c89a6">
+                <div class="sqs-block-content" id="yui_3_17_2_1_1703786804157_150">
+                  <div class="sqs-block-button-container sqs-block-button-container--left" data-animation-role="button" data-alignment="left" data-button-size="small" data-button-type="tertiary" id="yui_3_17_2_1_1703786804157_149">
+                    <a href="/Users/lukepowers/Desktop/mason_website/pdfs/Advanced Materials - 2022 - Zadan - Liquid Crystal Elastomer with Integrated Soft Thermoelectrics for Shape Memory.pdf" class="sqs-block-button-element--small sqs-button-element--tertiary sqs-block-button-element" target="_blank" data-initialized="true">
+                    PDF
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row sqs-row" id="yui_3_17_2_1_1703786804157_86">
+            <div class="col sqs-col-4 span-4" id="yui_3_17_2_1_1703786804157_85">
+              <div class="sqs-block image-block sqs-block-image sqs-text-ready" data-aspect-ratio="67.3780487804878" data-block-type="5" id="block-e8f24bd34eb05913e82c">
+                <div class="sqs-block-content" id="yui_3_17_2_1_1703786804157_84">
+                  <div class="image-block-outer-wrapper
+                    layout-caption-hidden
+                    design-layout-inline
+                    combination-animation-none
+                    individual-animation-none
+                    individual-text-animation-none
+                    sqs-narrow-width" data-test="image-block-inline-outer-wrapper" id="yui_3_17_2_1_1703786804157_83">
+                    <figure class="
+                      sqs-block-image-figure
+                      intrinsic
+                      " style="max-width:1244px;" id="yui_3_17_2_1_1703786804157_82">
+                      <div class="image-block-wrapper" data-animation-role="image" id="yui_3_17_2_1_1703786804157_81">
+                        <div class="sqs-image-shape-container-element
+                          has-aspect-ratio
+                          " style="
+                          position: relative;
+                          padding-bottom:67.3780517578125%;
+                          overflow: hidden;-webkit-mask-image: -webkit-radial-gradient(white, black);
+                          " id="yui_3_17_2_1_1703786804157_80">
+                          <img data-stretch="false" alt="wearable_soft_tech.png" data-load="false" src="/Users/lukepowers/Desktop/mason_website/images/mason_walking.jpeg" width="1244" height="834" sizes="(max-width: 640px) 100vw, (max-width: 767px) 33.33333333333333vw, 33.33333333333333vw" style="display:block;object-fit: cover; width: 100%; height: 100%; object-position: 50.40212614110793% 63.69047619047619%">    
+                        </div>
+                      </div>
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col sqs-col-8 span-8">
+              <div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1638547361692_75114">
+                <div class="sqs-block-content">
+                  <div class="sqs-html-content">
+                    <h3 style="white-space:pre-wrap;">Stretchable Thermoelectric Generators for Self-Powered Wearable Health Monitoring</h3>
+                    <p class="" style="white-space:pre-wrap;"><strong>Zadan, M.</strong>; Wertz, A.; Shah, D.; Patel, D. K.; Zu, W.; Han, Y.; Gelorme, J.; Mea, H. J.; Yao, L.; Malakooti, M. H.; Ko, S. H.; Kazem, N.; Majidi, C.<i> Under Review.</i></p>
+                    <p class="" style="white-space:pre-wrap;">As continuous wearable physiological monitoring systems become more ubiquitous in healthcare, there is an increasing need for power sources that can sustainably power wireless sensors and electronics for long durations. Wearable energy harvesting with thermoelectric generators (TEGs), in which body heat is converted to electrical energy, presents a promising way to prolong wireless operation and address battery life concerns. In this paper, we introduce high performance TEGs that combine 3D printed elastomers with liquid metal epoxy polymer composites and thermoelectric semiconductors to achieve elastic compliance and mechanical compatibility with the body. We characterize the thermoelectric properties in both energy harvesting (Seebeck) and active heating/cooling (Peltier) modes, and examine the performance of wearable energy harvesting under various conditions such as sitting, walking, and running. When worn on a user's forearm while walking outside, our TEG arrays were able to power circuitry to collect photoplethysmography (PPG) waveform data with a photonic sensor and wirelessly transmit the data to an external PC using an on-board Bluetooth Low Energy radio. This represents a significant step forward on the path to sustainable body-worn smart electronics.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="sqs-block spacer-block sqs-block-spacer" data-aspect-ratio="3.2442748091603053" data-block-type="21" id="block-5ac22f2917c4009e02f5">
+            <div class="sqs-block-content sqs-intrinsic" id="yui_3_17_2_1_1703786804157_176" style="padding-bottom: 3.24427%;">&nbsp;</div>
+          </div>
+        </div>
+      </div>
+      <div class="row sqs-row" id="yui_3_17_2_1_1703786804157_97">
+        <h2>Wireless Soft Robots</h2>
+        <div class="col sqs-col-4 span-4" id="yui_3_17_2_1_1703786804157_96">
+          <div class="sqs-block image-block sqs-block-image sqs-text-ready" data-aspect-ratio="100" data-block-type="5" id="block-658d3537d7dd31860943">
+            <div class="sqs-block-content" id="yui_3_17_2_1_1703786804157_95">
+              <div class="image-block-outer-wrapper
+                layout-caption-hidden
+                design-layout-inline
+                combination-animation-none
+                individual-animation-none
+                individual-text-animation-none
+                sqs-narrow-width" data-test="image-block-inline-outer-wrapper" id="yui_3_17_2_1_1703786804157_94">
+                <figure class="
+                  sqs-block-image-figure
+                  intrinsic
+                  " style="max-width:698px;" id="yui_3_17_2_1_1703786804157_93">
+                  <div class="image-block-wrapper" data-animation-role="image" id="yui_3_17_2_1_1703786804157_92">
+                    <div class="sqs-image-shape-container-element
+                      has-aspect-ratio
+                      " style="
+                      position: relative;
+                      padding-bottom:100%;
+                      overflow: hidden;-webkit-mask-image: -webkit-radial-gradient(white, black);
+                      " id="yui_3_17_2_1_1703786804157_91">    
+                      <img data-stretch="false" data-load="false" src="/Users/lukepowers/Desktop/mason_website/images/wireless_heating.png" width="1244" height="834" sizes="(max-width: 640px) 100vw, (max-width: 767px) 33.33333333333333vw, 33.33333333333333vw" style="display:block;object-fit: cover; width: 100%; height: auto">
+                    </div>
+                  </div>
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col sqs-col-8 span-8">
+          
+          <div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-313415d52c46df676085">
+            <div class="sqs-block-content">
+              <div class="sqs-html-content">
+                <h3 style="white-space:pre-wrap;">Navigating Soft Robots through Wireless Heating</h3>
+                <p class="" style="white-space:pre-wrap;">Song, Y; <strong>Zadan, M.</strong>; Misra, K; Li, Z; Wang, J.; Majidi, C.; Kumar, S. <i>IEEE International Conference on Robotics and Automation, 2023.</i></p>
+                <p class="" style="white-space:pre-wrap;">Recent work on battery-free soft robotics has demonstrated the use of liquid crystal elastomers (LCE) to build shape-changing materials activated by applied external heat. However, sources of heat must typically be in direct field-of-view of the robot (i.e. NIR, laser, and visual light EM sources or convective heats guns), be tethered to an external power supply (i.e. thermoelectric heating or resistive joule heaters), or require a heavy on-board battery that limits mobility and range. This paper presents a novel battery-free soft-robotics platform that can crawl through confined, enclosed, and hard-to-reach spaces (e.g. packages, machinery, pipes, etc.), hidden from view of heating infrastructure. This is achieved through the co-design of a soft robotics platform and integrated soft conductive traces that enable wireless (microwave) heating through remote stimulation. We achieve fast actuation through a careful choice of materials and the overall mechanical structure of the robot to maximize heating efficiency. Further, the robot is actively tracked through enclosed spaces using a mm Wave radar to direct heat to its location. We provide a detailed evaluation on the robot's heating efficiency, location-tracking accuracy and crawling speed.</p>
+              </div>
+            </div>
+          </div>
+          <div class="sqs-block button-block sqs-block-button" data-block-type="53" id="block-394865d9f7f7a55df1ec">
+            <div class="sqs-block-content" id="yui_3_17_2_1_1703786804157_157">
+              <div class="sqs-block-button-container sqs-block-button-container--left" data-animation-role="button" data-alignment="left" data-button-size="small" data-button-type="tertiary" id="yui_3_17_2_1_1703786804157_156">
+                <a href="/Users/lukepowers/Desktop/mason_website/pdfs/Navigating_Soft_Robots_through_Wireless_Heating.pdf" class="sqs-block-button-element--small sqs-button-element--tertiary sqs-block-button-element" target="_blank" data-initialized="true">
+                PDF
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row sqs-row">
+        <div class="col sqs-col-12 span-12">
+          <div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21" id="block-b159853a3e4df029c906">
+            <div class="sqs-block-content">&nbsp;</div>
+          </div>
+        </div>
+      </div>
+      <div class="row sqs-row" id="yui_3_17_2_1_1703786804157_108">
+        <div class="col sqs-col-4 span-4" id="yui_3_17_2_1_1703786804157_107">
+          <div class="sqs-block image-block sqs-block-image sqs-text-ready" data-aspect-ratio="57.62195121951219" data-block-type="5" id="block-1c9f9382c90ef42171ff">
+            <div class="sqs-block-content" id="yui_3_17_2_1_1703786804157_106">
+              <div class="image-block-outer-wrapper
+                layout-caption-below
+                design-layout-inline
+                combination-animation-none
+                individual-animation-none
+                individual-text-animation-none
+                sqs-narrow-width" data-test="image-block-inline-outer-wrapper" id="yui_3_17_2_1_1703786804157_105">
+                <figure class="
+                  sqs-block-image-figure
+                  intrinsic
+                  " style="max-width:1106px;" id="yui_3_17_2_1_1703786804157_104">
+                  <div class="image-block-wrapper" data-animation-role="image" id="yui_3_17_2_1_1703786804157_103">
+                    <div class="sqs-image-shape-container-element
+                      has-aspect-ratio
+                      " style="
+                      position: relative;
+                      padding-bottom:100%;
+                      overflow: hidden;-webkit-mask-image: -webkit-radial-gradient(white, black);
+                      " id="yui_3_17_2_1_1703786804157_102">
+                      <img data-stretch="false" data-load="false" src="/Users/lukepowers/Desktop/mason_website/images/wireless_actuation.png" width="1244" height="834" sizes="(max-width: 640px) 100vw, (max-width: 767px) 33.33333333333333vw, 33.33333333333333vw" style="display:block;object-fit: cover; width: 100%; height: auto">
+                    </div>
+                  </div>
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col sqs-col-8 span-8">
+          <div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-594229cb033b7f95a887">
+            <div class="sqs-block-content">
+              <div class="sqs-html-content">
+                <h3 style="white-space:pre-wrap;">Wireless Actuation for Soft Electronics-free Robots</h3>
+                <p class="" style="white-space:pre-wrap;">Wang, J.; Song, Y.; <strong>Zadan, M.</strong>; Shen, Y; Chen, V.; Majidi, C.; Kumar, S. <i>ACM Mobicom, 2023.</i></p>
+                <p class="" style="white-space:pre-wrap;">This paper proposes a new primitive that allows soft robots to be physically controlled in a completely non-line-of-sight context using wireless energy - a process we call wireless actuation. Soft robots, which are composed entirely of soft materials and exclude any rigid components, are highly flexible platforms that can change their shape. This paper considers a specific class of soft robots composed of liquid-crystal elastomers (LCE) that are entirely electronics-free and engineered to change shape when heated to 60 °C. Traditionally, such robotic systems must be in line-of-sight of a light source, such as infrared to be moved, or require an external power supply for Joule heating and often take several tens of seconds to heat. We present WASER, a novel RF-based heating platform that allows electronics-free robots to be actuated rapidly (within a few seconds) and potentially in non-line-of-sight. WASER achieves this through innovations in both wireless systems and material science. On the wireless front, WASER develops a new blind beamforming solution that directs high-power wireless energy at fine spatial granularity without electronics on the robot to provide feedback. On the material science front, WASER exhibits heat-responsive shape-morphing and energy-harvesting material functionalities that allow for rapid wireless heating. We implement and evaluate WASER and demonstrate diverse shape-morphing capabilities.</p>
+              </div>
+            </div>
+          </div>
+          <div class="sqs-block button-block sqs-block-button" data-block-type="53" id="block-7c25d5022061e896b459">
+            <div class="sqs-block-content" id="yui_3_17_2_1_1703786804157_164">
+              <div class="sqs-block-button-container sqs-block-button-container--left" data-animation-role="button" data-alignment="left" data-button-size="small" data-button-type="tertiary" id="yui_3_17_2_1_1703786804157_163">
+                <a href="/Users/lukepowers/Desktop/mason_website/pdfs/Wireless Actuation for Soft Electronics-free Robots.pdf" class="sqs-block-button-element--small sqs-button-element--tertiary sqs-block-button-element" target="_blank" data-initialized="true">
+                PDF
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row sqs-row" id="yui_3_17_2_1_1703786804157_121">
+        <h2>Topical Reviews</h2>
+        <div class="col sqs-col-12 span-12" id="yui_3_17_2_1_1703786804157_120">
+          <!-- <div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21" id="block-yui_3_17_2_1_1618064834718_17952">
+            <div class="sqs-block-content">&nbsp;</div>
+          </div> -->
+          <div class="row sqs-row" id="yui_3_17_2_1_1703786804157_119">
+            <div class="col sqs-col-4 span-4" id="yui_3_17_2_1_1703786804157_118">
+              <div class="sqs-block image-block sqs-block-image sqs-text-ready" data-block-type="5" id="block-yui_3_17_2_1_1618064834718_30314">
+                <div class="sqs-block-content" id="yui_3_17_2_1_1703786804157_117">
+                  <div class="image-block-outer-wrapper
+                    layout-caption-hidden
+                    design-layout-inline
+                    combination-animation-none
+                    individual-animation-none
+                    individual-text-animation-none
+                    sqs-narrow-width" data-test="image-block-inline-outer-wrapper" id="yui_3_17_2_1_1703786804157_116">
+                    <figure class="
+                      sqs-block-image-figure
+                      intrinsic
+                      " style="max-width:1140px;" id="yui_3_17_2_1_1703786804157_115">
+                      <div class="image-block-wrapper" data-animation-role="image" id="yui_3_17_2_1_1703786804157_114">
+                        <div class="sqs-image-shape-container-element
+                          has-aspect-ratio
+                          " style="
+                          position: relative;
+                          padding-bottom:55.614036560058594%;
+                          overflow: hidden;-webkit-mask-image: -webkit-radial-gradient(white, black);
+                          " id="yui_3_17_2_1_1703786804157_113">
+                          <img data-stretch="false" data-load="false" src="/Users/lukepowers/Desktop/mason_website/images/wearable_energy_harvesting.png" width="1244" height="834" sizes="(max-width: 640px) 100vw, (max-width: 767px) 33.33333333333333vw, 33.33333333333333vw" style="display:block;object-fit: cover; width: 100%; height: auto">
+                        </div>
+                      </div>
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col sqs-col-8 span-8">
+              
+              <div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1618064834718_32870">
+                <div class="sqs-block-content">
+                  <div class="sqs-html-content">
+                    <h3 style="white-space:pre-wrap;">Liquid Metal Architectures for Soft and Wearable Energy Harvesting Devices</h3>
+                    <p class="" style="white-space:pre-wrap;"><strong>Zadan, M.</strong>; Chiew, C.; Majidi, C.; Malakooti, M. H. <i>Multifunctional Materials, 2021.</i></p>
+                    <p class="" style="white-space:pre-wrap;">Future advanced wearable energy harvesters need to have high power densities, functionality under large deformations, scalability, and robust resistance against mechanical damages (i.e. fatigue, delamination, and fracture). To achieve this, ultra-flexible, high dielectric, and thermally conductive materials along with deformable and robust electrodes are needed. Here, we review recent progress in synthesis and integration of liquid metal (LM) material architectures as the building blocks of emerging wearable energy harvesting devices. After a brief introduction to room temperature LM alloys, LM's various applications in a variety of soft and stretchable power harvesting devices including thermoelectric, triboelectric, dielectric elastomer, and piezoelectric generators are summarized. The unique opportunities and challenges introduced by LM material architectures in this field are also discussed.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="sqs-block button-block sqs-block-button" data-block-type="53" id="block-yui_3_17_2_1_1618064834718_58166">
+                <div class="sqs-block-content" id="yui_3_17_2_1_1703786804157_171">
+                  <div class="sqs-block-button-container sqs-block-button-container--left" data-animation-role="button" data-alignment="left" data-button-size="small" data-button-type="tertiary" id="yui_3_17_2_1_1703786804157_170">
+                    <a href="/Users/lukepowers/Desktop/mason_website/pdfs/Zadan_2021_Multifunct._Mater._4_012001.pdf" class="sqs-block-button-element--small sqs-button-element--tertiary sqs-block-button-element" target="_blank" data-initialized="true">
+                    PDF
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21" id="block-yui_3_17_2_1_1618064834718_17952">
+        <div class="sqs-block-content">&nbsp;</div>
+      </div>
+      <div class="row sqs-row" id="yui_3_17_2_1_1703786804157_86">
+        <div class="col sqs-col-4 span-4" id="yui_3_17_2_1_1703786804157_85">
+          <div class="sqs-block image-block sqs-block-image sqs-text-ready" data-aspect-ratio="67.3780487804878" data-block-type="5" id="block-e8f24bd34eb05913e82c">
+            <div class="sqs-block-content" id="yui_3_17_2_1_1703786804157_84">
+              <div class="image-block-outer-wrapper
+                layout-caption-hidden
+                design-layout-inline
+                combination-animation-none
+                individual-animation-none
+                individual-text-animation-none
+                sqs-narrow-width" data-test="image-block-inline-outer-wrapper" id="yui_3_17_2_1_1703786804157_83">
+                <figure class="
+                  sqs-block-image-figure
+                  intrinsic
+                  " style="max-width:1244px;" id="yui_3_17_2_1_1703786804157_82">
+                  <div class="image-block-wrapper" data-animation-role="image" id="yui_3_17_2_1_1703786804157_81">
+                    <div class="sqs-image-shape-container-element
+                      has-aspect-ratio
+                      " style="
+                      position: relative;
+                      padding-bottom:67.3780517578125%;
+                      overflow: hidden;-webkit-mask-image: -webkit-radial-gradient(white, black);
+                      " id="yui_3_17_2_1_1703786804157_80">
+                      <img data-stretch="false" alt="wearable_soft_tech.png" data-load="false" src="/Users/lukepowers/Desktop/mason_website/images/sensing_skins.png" width="1244" height="834" sizes="(max-width: 640px) 100vw, (max-width: 767px) 33.33333333333333vw, 33.33333333333333vw" style="display:block;object-fit: cover; width: 100%; height: auto">    
+                    </div>
+                  </div>
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col sqs-col-8 span-8">
+          <div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1638547361692_75114">
+            <div class="sqs-block-content">
+              <div class="sqs-html-content">
+                <h3 style="white-space:pre-wrap;">Soft Tactile Sensing Skins for Robotics</h3>
+                <p class="" style="white-space:pre-wrap;">Roberts, P.; <strong>Zadan, M.</strong>; Majidi, C. <i>Current Robotics Reports, 2021.</i></p>
+                <p class="" style="white-space:pre-wrap;">E-skins for tactile sensing have a central role in a range of robotic applications, from haptics and teleoperation to bio-inspired soft robots. For many of these applications, E-skins must be soft, thin, flexible, stretchable, and lightweight so that they can be mounted on a robot, incorporated into clothing, or placed on human skin without interfering with mobility or contact mechanics. Significant research has been conducted on sensing techniques that can allow a robot to achieve a sense of human touch, with important progress being made in force feedback sensing, texture recognition, and spatial acuity. We begin by covering principles of tactile sensing in humans, robotics, and human-machine interaction. This is followed by an overview of soft material transducers capable of pressure and force sensing. This includes resistive, capacitive, magnetic, barometric, and optical sensing techniques. We close with a summary of emerging trends in sensor design and implementations for applications in robotics.</p>
+              </div>
+            </div>
+          </div>
+          <div class="sqs-block button-block sqs-block-button" data-block-type="53" id="block-bce7e90e2245ab3c89a6">
+            <div class="sqs-block-content" id="yui_3_17_2_1_1703786804157_150">
+              <div class="sqs-block-button-container sqs-block-button-container--left" data-animation-role="button" data-alignment="left" data-button-size="small" data-button-type="tertiary" id="yui_3_17_2_1_1703786804157_149">
+                <a href="/Users/lukepowers/Desktop/mason_website/pdfs/Soft Tactile Sensing Skins for Robotics.pdf" class="sqs-block-button-element--small sqs-button-element--tertiary sqs-block-button-element" target="_blank" data-initialized="true">
+                PDF
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  </section>
+  <div class="extra-wrapper page-footer">
+    <div class="sqs-layout sqs-grid-12 columns-12 empty" data-layout-label="Footer Content: Publications" data-type="block-field" id="page-footer-6071b3a28ba1797240bddf4b">
+      <div class="row sqs-row">
+        <div class="col sqs-col-12 span-12"></div>
+      </div>
+    </div>
+  </div>
+  <div class="page-divider"></div>
+  <div class="extra-padding">
+  </div>
+  </div>
+</body>
